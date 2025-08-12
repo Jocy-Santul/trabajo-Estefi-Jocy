@@ -1,6 +1,7 @@
 from tablet import Tablet
 
 def mostrar_menu():
+    #comentario de prueba
     # Función que muestra las opciones disponibles al usuario
     print("\n" + "-"*45)
     print("             TABLET")
