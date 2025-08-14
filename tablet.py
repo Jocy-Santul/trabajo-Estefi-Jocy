@@ -2,11 +2,12 @@
 class Tablet:
     # Esta es nuestra clase principal que representa una tablet
     
-    def __init__(self, pulgadas, archivos, marca, almacenamiento=128, bateria=100):
+    def __init__(self, pulgadas, archivos, marca, color_fondo, almacenamiento=128, bateria=100):
         # Elegimos estos atributos porque son las características más importantes
         self.__pulgadas = pulgadas          # Tamaño de pantalla
         self.__archivos = archivos          # Cuántos archivos tiene guardados
-        self.__marca = marca                # Samsung, iPad, etc.
+        self.__marca = marca 
+        self.__color_fondo = color_fondo# Samsung, iPad, etc.
         self.__almacenamiento = almacenamiento  # Este es nuestro atributo OPCIONAL (128GB por defecto)
         self.__bateria = bateria            # Porcentaje de batería (100% por defecto)
     
@@ -26,6 +27,10 @@ class Tablet:
     def get_marca(self):
         # Devuelve la marca de la tablet
         return self.__marca
+    
+    def get_color(self):
+        # Devuelve el tamaño de pantalla
+        return self.__color_fondo
     
     def get_bateria(self):
         # Devuelve el porcentaje actual de batería

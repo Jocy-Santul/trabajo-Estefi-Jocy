@@ -22,6 +22,7 @@ def crear_tablet():
     try:
         # Pedimos los datos básicos
         marca = input("Ingrese la marca: ")
+        color_fondo = input("Ingrese el color: ")
         pulgadas = float(input("Ingrese el tamaño en pulgadas: "))
         archivos = int(input("Ingrese la cantidad de archivos: "))
         
@@ -33,7 +34,7 @@ def crear_tablet():
             almacenamiento = 128
             
         # Creamos y devolvemos la nueva tablet
-        return Tablet(pulgadas, archivos, marca, almacenamiento)
+        return Tablet(pulgadas, color_fondo, archivos, marca, almacenamiento)
     except ValueError:
         # Si ingresó algo mal (letras donde van números), mostramos error
         print("Error: Ingrese valores numéricos válidos")
