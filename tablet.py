@@ -1,7 +1,7 @@
 
 class Tablet:
     # Esta es nuestra clase principal que representa una tablet
-    
+    # Atributos de la clase
     def __init__(self, pulgadas, archivos, marca, color_fondo, almacenamiento=128, bateria=100):
         # Elegimos estos atributos porque son las características más importantes
         self.__pulgadas = pulgadas          # Tamaño de pantalla
