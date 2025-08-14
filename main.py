@@ -127,35 +127,6 @@ def main():
             # Cualquier otro error 
             print(f" Error inesperado: {e}")
             
-            
-            
-            
-            
-            
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Punto de entrada del programa - desde acá empieza todo
-        if __name__ == "__main__":
-          main()  # Llamamos a la función principal
+if __name__ == "__main__":
+  main()  # Llamamos a la función principal
