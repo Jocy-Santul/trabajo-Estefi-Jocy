@@ -120,6 +120,7 @@ def main():
             
             elif opcion == "8":
                 # Opción 8: Salir del programa
+                print("Gracias por usar nuestro programa de crear tablets. Vuelva pronto!!")
                 print("\n¡Chauuu!")
                 break  # while
             
