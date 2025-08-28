@@ -92,3 +92,4 @@ class Tablet:
             return f"Total de archivos combinados: {total_archivos}"
         else:
             return "Error: Solo se pueden sumar tablets"
+# comentario nuevo jocy..
